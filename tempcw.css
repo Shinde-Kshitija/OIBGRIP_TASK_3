@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'rockwell';
+    font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(#363553, #903775, #e8458b);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(3, 19, 13);
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-image: linear-gradient(#f19cbb, #f16c9c, #f13c7e);
+    border-radius: 25rem;
+    border:0.1rem solid #111111;
+    padding: 55px;
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(12, 11, 11);
+    -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+    box-shadow: 0 10px 6px -6px rgb(5, 5, 5);
+}
+
+#tempCalc label{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#tempCalc label:hover{
+    letter-spacing: .1rem;
+    background-image: linear-gradient(#4d472f, #ada47d , #f8f0c6, #f3f2ed);
+    border-radius: 6rem;
+}
+
+#temp_diff {
+    height: 40px;
+    width: 10rem;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 10rem;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+[type = "submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 10rem;
+    font-size: 20px;
+    border:none;
+    background-color: black;
+    color: white;
+}
+
+#resultContainer {
+    font-size: 40px;
+    font-family:'Maiandra GD';
+    font-weight: bolder;
+    
+}
+
+#resultContainer:hover{
+    letter-spacing: .1rem;
+    background-image: linear-gradient(#690707, #eb3f3f , #c46b42, #b18570);
+    border-radius: 2rem;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
